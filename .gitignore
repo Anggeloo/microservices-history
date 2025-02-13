@@ -1,0 +1,40 @@
+# Dependencias de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Archivos de entorno
+.env
+
+# Archivos de logs
+logs/
+*.log
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cachés de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación y temporales
+dist/
+build/
+.tmp/
+.cache/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Editor de código
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Otros
+coverage/
